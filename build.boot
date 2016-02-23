@@ -1,5 +1,6 @@
 (set-env!
- :resource-paths #{"src"})
+ :resource-paths #{"src"}
+ :dependencies '[[org.clojure/tools.namespace "0.3.0-alpha3"]])
 
 (task-options!
  pom {:project 'my-project
